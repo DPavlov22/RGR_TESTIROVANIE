@@ -1,0 +1,56 @@
+.body,
+html {
+    height: 100%;
+}
+.quizz {
+    flex: 1 1 auto;
+}
+
+.footer {
+    padding: 30px;
+    text-align: left;
+}
+
+
+.quiz {
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    background-color: #03ffcd;
+    border-radius: 20px;
+    border: #000000 2px solid;
+    position: relative;
+  }
+  
+  button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #0080ff97;
+    border-radius: 20px;
+    border: black 2px solid;
+    position: absolute;
+    bottom: 50px;
+    left: 150px
+  }
+   
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #score {
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    background-color: #00acc6cb;
+    margin: 150px auto;
+    border-radius: 5px;
+    color: #000000cb;
+    text-align: center;
+  }
